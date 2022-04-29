@@ -18,7 +18,7 @@ const FirstSection = () => (
     <Container>
 <Row xs={12}>
                 <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
+                 <Card style={{color:"white", backgroundColor:"#282828", width:"200px", height:"200px", paddingLeft:"10px"}}>
                       <img
                         src="https://picsum.photos/150"
                         alt="..."
@@ -29,7 +29,7 @@ const FirstSection = () => (
                   </Card>
                   </Row>
                   <Row xs={1}>
-                  <Card >
+                  <Card style={{color:"white", backgroundColor:"#282828", width:"200px", height:"200px", paddingLeft:"10px"}}>
                       <img
                         src="https://picsum.photos/150"
                         alt="..."
@@ -40,7 +40,7 @@ const FirstSection = () => (
                   </Card>
                   </Row>
                   <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
+                 <Card style={{color:"white", backgroundColor:"#282828", width:"200px", height:"200px", paddingLeft:"10px"}}>
                       <img
                         src="https://picsum.photos/150"
                         alt="..."
@@ -51,7 +51,7 @@ const FirstSection = () => (
                   </Card>
                   </Row>
                   <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
+                 <Card style={{color:"white", backgroundColor:"#282828", width:"200px", height:"200px", paddingLeft:"10px"}}>
                       <img
                         src="https://picsum.photos/150"
                         alt="..."
@@ -62,40 +62,7 @@ const FirstSection = () => (
                   </Card>
                   </Row>
                   <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                       <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                  <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                       <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                  <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                       <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                  <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
+                  <Card style={{color:"white", backgroundColor:"#282828", width:"200px", height:"200px", paddingLeft:"10px"}}>
                       <img
                         src="https://picsum.photos/150"
                         alt="..."
