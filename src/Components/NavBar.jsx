@@ -21,34 +21,28 @@ const NavBar = () => (
                     </span>
             </li>
             <li className="list-group-item list-group-item-action"  style={{backgroundColor:"#282828"}}>
-                <a href="/pages/artist.html" className="d-flex">
                     <i className="bi bi-music-note-list fa-2x"> </i>
                     <span className=" justify-content-center text-center mx-3 my-auto font-weight-bold">
                         Your Library
                     </span>
-                </a>
             </li>
             <li className="list-group-item list-group-item-action mt-4"  style={{backgroundColor:"#282828"}}>
-                <a href="/index.html" className="d-flex">
                     <i className="bi bi-plus-square-fill fa-2x"> </i>
                     <span className=" justify-content-center text-center mx-3 my-auto">
                         Create Playlist
                     </span>
-                </a>
             </li>
             <li className="list-group-item list-group-item-action"  style={{backgroundColor:"#282828"}}>
-                <a href="/index.html" className="d-flex">
                     <i className="bi bi-suit-heart-fill fa-2x heart"> </i>
                     <span className=" justify-content-center text-center mx-3 my-auto">
                     Liked Songs
                     </span>
-                </a>
             </li>
             <hr />
             <li>
                <Col>
                     <ol>
-                        <li> Bohemian Rhapsody</li>
+                        <li>Bohemian Rhapsody</li>
                         <li>Your Top Songs 2020</li>
                         <li>In Love with you</li>
                         <li>This is Rod Stewart</li>
@@ -72,12 +66,10 @@ const NavBar = () => (
                     </Col>
             </li>
             <li className="list-group-item list-group-item-action"  style={{backgroundColor:"#282828"}}>
-                <a href="/index.html" className="d-flex">
                     <i className="bi bi-box-arrow-down fa-2x install"> </i>
                     <span className=" justify-content-center text-center mx-3 my-auto install">
                         Install App
                     </span>
-                </a>
             </li>
         </ul>
     `;   

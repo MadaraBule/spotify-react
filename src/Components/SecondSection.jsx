@@ -16,96 +16,63 @@ const SecondSection = () => (
   // }
   //   render(){
     <Container>
-<Row xs={12}>
-                <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                      <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                  <Row xs={1}>
-                  <Card >
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                       <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                  <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                       <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                  <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                       <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                  <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                       <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                  <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                       <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                  <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                       <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                  <Row xs={1}>
-                  <Card style={{color:"white", backgroundColor:"#282828"}}>
-                      <img
-                        src="https://picsum.photos/150"
-                        alt="..."
-                      />
-                       <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
-                        <Card.Title>Card title</Card.Title>
-                      </Card.Body>
-                  </Card>
-                  </Row>
-                </Row>
-</Container>
+    <Row xs={12}>
+                    <Row xs={1}>
+                     <Card style={{color:"white", backgroundColor:"#282828", width:"200px", height:"200px", paddingLeft:"10px"}}>
+                          <img
+                            src="https://picsum.photos/150"
+                            alt="..."
+                          />
+                          <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
+                            <Card.Title>Card title</Card.Title>
+                          </Card.Body>
+                      </Card>
+                      </Row>
+                      <Row xs={1}>
+                      <Card style={{color:"white", backgroundColor:"#282828", width:"200px", height:"200px", paddingLeft:"10px"}}>
+                          <img
+                            src="https://picsum.photos/150"
+                            alt="..."
+                          />
+                           <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
+                            <Card.Title>Card title</Card.Title>
+                          </Card.Body>
+                      </Card>
+                      </Row>
+                      <Row xs={1}>
+                     <Card style={{color:"white", backgroundColor:"#282828", width:"200px", height:"200px", paddingLeft:"10px"}}>
+                          <img
+                            src="https://picsum.photos/150"
+                            alt="..."
+                          />
+                           <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
+                            <Card.Title>Card title</Card.Title>
+                          </Card.Body>
+                      </Card>
+                      </Row>
+                      <Row xs={1}>
+                     <Card style={{color:"white", backgroundColor:"#282828", width:"200px", height:"200px", paddingLeft:"10px"}}>
+                          <img
+                            src="https://picsum.photos/150"
+                            alt="..."
+                          />
+                           <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
+                            <Card.Title>Card title</Card.Title>
+                          </Card.Body>
+                      </Card>
+                      </Row>
+                      <Row xs={1}>
+                      <Card style={{color:"white", backgroundColor:"#282828", width:"200px", height:"200px", paddingLeft:"10px"}}>
+                          <img
+                            src="https://picsum.photos/150"
+                            alt="..."
+                          />
+                           <Card.Body style={{color:"white", backgroundColor:"#282828"}}>
+                            <Card.Title>Card title</Card.Title>
+                          </Card.Body>
+                      </Card>
+                      </Row>
+                    </Row>
+    </Container>
   );
 export default SecondSection
