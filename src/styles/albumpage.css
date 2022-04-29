@@ -1,0 +1,27 @@
+.album-track-list {
+    padding-left: 40px;
+}
+.track-num {
+    padding-left: 20px;
+    margin-right: 1.5rem;
+}
+.title-song {
+    padding-left: 25px;
+}
+
+.singer-name {
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+.hashtag-title {
+    margin-left: 20px;
+}
+
+.album-page-album-info img {
+    height: 22px;
+    border-radius: 2rem;
+}
+#midnigth-protocol {
+    margin-left: -9px;
+}
