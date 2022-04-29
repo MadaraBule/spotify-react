@@ -5,7 +5,7 @@ import {IonIcon} from "react-ion-icon";
 
 const PlayBar = () => (
     <footer>
-    <Container>
+    <Container  style={{color:"white", width:"100%", backgroundColor:"#282828"}}>
     <div className="current-song">
             <div>
                 <img src="/assets/images/global/Bildschirmfoto_2022-03-28_um_13.42.07.png" alt=""
