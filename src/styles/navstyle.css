@@ -1,0 +1,44 @@
+.arrows {
+    position: fixed;
+    top: 0;
+    padding-top: 15px;
+    z-index: 5;
+}
+
+
+.arrow2, .arrow1 {
+    background-color: rgb(59, 59, 59);
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.profile-picture-button { 
+position: fixed;
+top: 0;
+right: 0;
+padding-right: 15px;
+padding-top: 15px;
+cursor: pointer;
+opacity:0.8;
+z-index: 5;
+}
+
+.profile-picture-top-bar {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.profile-picture-dropdown {
+    background-color: rgba(0, 0, 0, .7);
+    padding-right: 0.4em;
+    padding-left: 0.1em;
+    align-items: center;
+    border-radius: 23px;
+    font-size: 0.9em;
+    margin-right: 60px;
+}
